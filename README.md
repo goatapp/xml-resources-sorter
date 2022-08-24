@@ -24,9 +24,8 @@ Any xml file who matches below formats
 
 <img src="arts/popup_menu_inlet.png" height="130" width="500"/>
 <img src="arts/refactor_menu_inlet.png" height="80" width="400"/>
-<img src="arts/xml_resources_option.png" height="210" width="400"/>
+<img src="arts/default_settings.png" height="210" width="400"/>
 
 ## Keyboard shortcut
 
-- Option + [Shift] + S(macOS)
-
+- Option + [Control] + S(macOS)

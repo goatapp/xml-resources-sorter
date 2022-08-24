@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.intellij") version "1.8.0"
 }
 
-group = "io.github.bytebeats"
+group = "org.alias"
 version = "0.1.0"
 
 repositories {

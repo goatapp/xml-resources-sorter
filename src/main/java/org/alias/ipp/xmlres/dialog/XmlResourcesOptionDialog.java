@@ -1,9 +1,9 @@
-package me.bytebeats.ipp.xmlres.dialog;
+package org.alias.ipp.xmlres.dialog;
 
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
-import me.bytebeats.ipp.xmlres.util.JComboBoxesKt;
+import org.alias.ipp.xmlres.util.JComboBoxesKt;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

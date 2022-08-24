@@ -1,6 +1,6 @@
-package me.bytebeats.ipp.xmlres.util
+package org.alias.ipp.xmlres.util
 
-import me.bytebeats.ipp.xmlres.CommentedNode
+import org.alias.ipp.xmlres.CommentedNode
 import org.w3c.dom.Document
 import org.w3c.dom.Element
 import org.w3c.dom.Node

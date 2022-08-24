@@ -1,6 +1,6 @@
-package me.bytebeats.ipp.xmlres
+package org.alias.ipp.xmlres
 
-import me.bytebeats.ipp.xmlres.util.orFalse
+import org.alias.ipp.xmlres.util.orFalse
 import org.w3c.dom.Node
 
 data class CommentedNode(val node: Node, val comments: List<Node>?) {

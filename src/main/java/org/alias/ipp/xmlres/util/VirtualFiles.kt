@@ -1,4 +1,4 @@
-package me.bytebeats.ipp.xmlres.util
+package org.alias.ipp.xmlres.util
 
 import com.intellij.openapi.vfs.VirtualFile
 import java.io.IOException

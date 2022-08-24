@@ -1,4 +1,4 @@
-package me.bytebeats.ipp.xmlres.util
+package org.alias.ipp.xmlres.util
 
 import javax.swing.JComboBox
 import javax.swing.JLabel

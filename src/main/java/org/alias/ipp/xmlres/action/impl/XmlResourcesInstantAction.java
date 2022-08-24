@@ -1,4 +1,4 @@
-package me.bytebeats.ipp.xmlres.action.impl;
+package org.alias.ipp.xmlres.action.impl;
 
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -7,11 +7,11 @@ import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
-import me.bytebeats.ipp.xmlres.action.AbstractXmlResourcesAction;
-import me.bytebeats.ipp.xmlres.dialog.XmlResourcesOptionDialog;
+import org.alias.ipp.xmlres.action.AbstractXmlResourcesAction;
+import org.alias.ipp.xmlres.dialog.XmlResourcesOptionDialog;
 import org.jetbrains.annotations.NotNull;
 
-import static me.bytebeats.ipp.xmlres.util.VirtualFilesKt.isXmlResourcesFile;
+import static org.alias.ipp.xmlres.util.VirtualFilesKt.isXmlResourcesFile;
 
 public class XmlResourcesInstantAction extends AbstractXmlResourcesAction {
 
