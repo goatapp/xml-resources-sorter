@@ -31,8 +31,8 @@ abstract class AbstractXmlResourcesAction : AnAction() {
         var escapedContent = editor.document.text.replace(">\n*\\s+?<".toRegex(), "><")
 
         for (tag in HTML_TAGS) {
-            escapedContent = escapedContent.replace("<$tag>".toRegex(), "&lt;$tag>")
-                .replace("</$tag>".toRegex(), "&lt;/$tag>")
+            escapedContent = escapedContent.replace("<$tag>".toRegex(), "&lt;$tag&gt;")
+                .replace("</$tag>".toRegex(), "&lt;/$tag&gt;")
         }
         val document: Document
         try {

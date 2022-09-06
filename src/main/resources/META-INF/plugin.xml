@@ -26,7 +26,7 @@
       - Support for inserting space between different prefixes.<br/>
       - Support for inserting version and encoding.<br/>
       - Support for deleting comments.<br/>
-      - Support for case sensitive.<br/>
+      - Support for case sensitive sorting.<br/>
       - Support for configuring indent.
   ]]></description>
 
@@ -41,11 +41,15 @@
 
     </extensions>
     <actions>
-        <group id="AliasXmlResourcesActionGroup" class="org.alias.ipp.xmlres.action.group.XmlResourcesActionGroup"
-               text="Xml Resources Actions" icon="AllIcons.FileTypes.Xml" popup="true"
+        <group id="AliasXmlResourcesActionGroup"
+               class="org.alias.ipp.xmlres.action.group.XmlResourcesActionGroup"
+               text="Xml Resources Actions"
+               icon="AllIcons.FileTypes.Xml"
+               popup="true"
                description="Action Group to sort xml items alphabetically">
             <add-to-group group-id="RefactoringMenu" anchor="first"/>
-            <action id="AliasXmlResourcesAction" class="org.alias.ipp.xmlres.action.impl.XmlResourcesAction"
+            <action id="AliasXmlResourcesAction"
+                    class="org.alias.ipp.xmlres.action.impl.XmlResourcesAction"
                     text="Sort by Name" description="Sort by name">
                 <keyboard-shortcut first-keystroke="alt S" keymap="$default"/>
             </action>

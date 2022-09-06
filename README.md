@@ -11,20 +11,26 @@ Any xml file who matches below formats
 
 ```
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-...
+    ...
     <resources>
         ...
         <color name="black">#FF000000</color>
         ...
     </resources>
-...
+    ...
 ```
 
 ## Visual Effect
 
+Entries
+
 <img src="arts/popup_menu_inlet.png" height="130" width="500"/>
-<img src="arts/refactor_menu_inlet.png" height="80" width="400"/>
-<img src="arts/default_settings.png" height="210" width="400"/>
+
+<img src="arts/refactor_menu_inlet.png" height="75" width="400"/>
+
+Recommendation Options for `goat-android`/`fawkes`/`alias-android` projects:
+
+<img src="arts/default_settings.png" height="240" width="400"/>
 
 ## Keyboard shortcut
 
